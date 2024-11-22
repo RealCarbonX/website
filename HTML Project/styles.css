@@ -1,0 +1,85 @@
+body{
+color: #7F66FF;
+font-family: verdana;
+background-color: lightblue;
+}
+
+.Home-Title{
+text-align: center;
+background-color: lightcoral;
+color: whitesmoke;
+}
+
+.navbar{
+    text-align: center;
+    font-size: 150%;
+}
+
+.navbar a{
+    color: dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+    padding-inline: 15px;
+    }
+    
+.navbar a:hover{
+        color: white; /*changes the colour of the link if its hovered over*/
+        text-decoration: underline; /*Makes the text underlined when hovered*/
+        transition: color 0.3s ease-in-out, background-image 0.7s ease-in-out; /*Found out about transition online and decided it would be cool to add*/
+        background-size: 200%;
+        background-position: right;
+        background-image: linear-gradient(90deg, dodgerblue, rgb(2, 77, 102));
+    }
+
+.navbar a.active { /*Indicator of what page you are on, just calling upon a class attribute that is added to the different a elements on each pages navbar*/
+    color: white;
+    text-decoration: underline; 
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+
+.Main-Body{
+    margin-left: 30px;
+}
+
+.Part-1-P{
+    color: #8c26de;
+}
+
+.Redirect a{
+color: dodgerblue;
+font-weight: bold;
+text-decoration: none;
+}
+
+.Redirect a:hover{
+    color: white; /*changes the colour of the link if its hovered over*/
+    text-decoration: underline; /*Makes the text underlined when hovered*/
+    transition: color 0.3s ease-in-out, background-image 0.7s ease-in-out; /*Found out about transition online and decided it would be cool to add*/
+    background-size: 200%;
+    background-position: right;
+    background-image: linear-gradient(90deg, dodgerblue, rgb(2, 77, 102));
+}
+
+h2{
+    text-decoration: underline;
+}
+
+img{
+    margin-left: 30px;
+    width: 200px;
+    border-style: solid;
+    border-color:#7F66FF;
+    border-width: 5px;
+    border-radius: 15px; /*This makes the picture edges curved*/
+}
+
+video{
+    margin-left: 30px;
+    width: 198.5px;
+    border-style: solid;
+    border-color:#7F66FF;
+    border-width: 5px;
+    border-radius: 15px; /*This makes the vid edges curved*/
+}
